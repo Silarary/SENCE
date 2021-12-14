@@ -4,12 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="profile.css">
+
 </head>
 <body>
-    <h1 style="background-color:powderblue;">Make profile</h1>
+    <header>
+        <div>
+            <img src="pc.jpg" class = "logo" >
+        </div>
+        <nav>
+            <!-- <ul class="nav_links"></ul> -->
+            <li><a class="B" href="#"><button>Back</button></a></li>
+            <li><a class="N" href="start.html"><button>Next</button></a></li>
+        </nav>
+
+
+    </header>
+    
+    <div class = "flexbox"> 
+        <div class = "item"> 
+            <div class = "content">
+                <h2 align ="center" style="color:dodgerblue"> Make Profile </h2>
+            </div>
+        </div> 
+    </div> <br><br>
+    
     <form>
+        <div align ="center">
         <label for="Name">Name</label>
         <input type="text">
+        </div><br><br>
+        <div align ="center">
+            <label for="Sex">Sexual</label>
+            <input type="radio" name = "gender">Man
+            <input type="radio" name = "gender">Woman
+        </div><br><br>
+        <div align ="center">
+            <label for="Age">Age</label>
+            <input type ="number" min=0 >
+        </div>
     </form>
 </body>
 </html>
